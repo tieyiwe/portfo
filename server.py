@@ -1,4 +1,3 @@
-from statistics import mode
 from flask import Flask, render_template, request,redirect
 import csv
 import datetime 
