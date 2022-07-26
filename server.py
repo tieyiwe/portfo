@@ -5,7 +5,7 @@ import datetime
 
 app = Flask(__name__)
 
-@app.route('/index.html')
+@app.route('/')
 def my_home():
     return render_template('index.html')
 
