@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request,redirect
 import csv
 import datetime 
+
+
 app = Flask(__name__)
-print(__name__)
 
 @app.route('/index.html')
 def my_home():
